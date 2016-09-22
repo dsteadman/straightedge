@@ -5,6 +5,12 @@
   <title></title>
 </head>
 <body>
-  Oh lookie here
+
+  <ul>
+    {% for article in articles %}
+      <li>{{ article.url }}</li>
+    {% endfor %}
+  </ul>
+
 </body>
 </html>
